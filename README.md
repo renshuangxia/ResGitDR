@@ -1,3 +1,7 @@
+# ResGitDR
+
+[![DOI](https://zenodo.org/badge/659061242.svg)](https://zenodo.org/doi/10.5281/zenodo.11559736)
+
 # Instructions for installing required libraries:
 
 1.	Clone project repo form GitHub:
