@@ -1,0 +1,27 @@
+# Training parameters
+training:
+  n_split: 10
+  num_epochs: 60
+  batch_size: 45
+  learning_rate: 0.001
+  weight_decay: 0
+  hidden_weights_pruning: true
+  hidden_weights_pruning_ratio: 0.9
+  early_stop: 50
+
+# Model parameters
+model:
+  embedding_size: 200
+  embedding_size_last: 320
+  num_blocks: 4
+  n_head: 4
+  using_cancer_type: true
+  scale_y: true
+  using_tf_gene_matrix: true
+  trim_ratio: 0.6
+
+# Data parameters
+data:
+  data_dir: "data"
+  embed_pretrain_gene2vec: true
+  permutation_sga_tissue: false 
